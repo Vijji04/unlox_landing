@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Herosection from '../Components/Herosection'
 import Footer from '../Components/Footer'
 import Navbar1 from '../Components/Navbar1'
