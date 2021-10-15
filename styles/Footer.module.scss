@@ -1,0 +1,83 @@
+.footerContainer {
+    padding: 0;
+    margin: 0;
+    box-shadow: -4px -4px 20px 2px rgba(206, 206, 206, 0.5);
+    background-color: #f8f8f8;
+
+    .footerWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 6rem;
+        font-family: "Avenir";
+
+        .sec1 {
+
+            .helpTitle {
+                font-size: 1.4rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .text {
+                font-size: 1.1rem;
+                margin-top: 1rem;
+                .email {
+                    cursor: pointer;
+                    color: #4a90e2;
+                }
+            }
+
+            .copySec {
+                display: flex;
+                align-items: center;
+                margin-top: 2.5rem;
+
+                .logo {
+                    margin-right: 1rem;
+                }
+                .copyright {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .sec2 {
+            display: flex;
+
+            .links1 {
+                margin: 0rem 1.5rem;
+                .head {
+                    font-size: 1.3rem;
+                    margin-bottom: 1rem;
+                }
+
+                .footerLink {
+                    color: #4a4a4a;
+                    margin-top: 0.6rem;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .sec3 {
+            .getItSec {
+                .getBtn {
+                    margin-left: 0.6rem;
+                }
+            }
+
+            .socialLinksSec {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 2.5rem;
+
+                .socialLink {
+                    .icon {
+                        font-size: 1.1rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

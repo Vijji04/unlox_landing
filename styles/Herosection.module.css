@@ -1,0 +1,24 @@
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 4.5rem;
+    background-image: url("/images/bg.webp");
+}
+
+.heroLeft{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroSlide{
+                display: flex;
+                align-items: center;
+                margin-top: 9rem;
+                margin-bottom: 6rem;
+}
+
+.subText{
+    font-size: 60px;
+}
