@@ -13,7 +13,7 @@ const Home = () => {
     <Herosection />
     <Container fluid className={styles.landingContainer} id="services">
     <h3 className={styles.landingBanner }>Why pay more when you can for all your business needs</h3>
-    <h4 className={styles.landingBanner2}>Here's what we offer</h4>
+    <h4 className={styles.landingBanner2}>Heres what we offer</h4>
     
     {/* //coffeesection */}
     <div className={styles.coffeesection}>
